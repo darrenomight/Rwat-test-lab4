@@ -2,7 +2,7 @@ document.getElementById("syncBtn").addEventListener("click", fetchSync);
 document.getElementById("asyncBtn").addEventListener("click", fetchAsync);
 document.getElementById("fetchBtn").addEventListener("click", fetchWithPromises);
 
-const basePath = "data/";
+const basePath = "Data/";
 
 function parseData(data) {
     return data.map(entry => {
